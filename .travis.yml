@@ -25,6 +25,7 @@ android:
 
 script:
   - ./gradlew build jacocoTestReport assembleAndroidTest
+  - ./gradlew codeCoverageReport
   
 after_success:
   - bash <(curl -s https://codecov.io/bash)
