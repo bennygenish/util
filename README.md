@@ -3,13 +3,10 @@ Android Libraries
 
 
 
-
-
-
 Usage
 ---
 
-Add it to your root `build.gradle` with:
+Add it to your root `build.gradle` with
 ```gradle
 allprojects {
     repositories {
@@ -18,13 +15,12 @@ allprojects {
 }
 ```
 
-Add it to your app `build.gradle` with the correct module and the latest tag version:
+Add it to your app `build.gradle` with the correct module and the latest tag version
 ```gradle
 dependencies {
     compile 'com.github.bennygenish.util:{module-name}:{tag}'
 }
 ```
-
 
 
 
@@ -38,8 +34,6 @@ Modules
 
 
 
-
-
 Documentation
 ---
 [![JitPack.io](https://jitpack.io/v/bennygenish/util.svg)](https://jitpack.io/#bennygenish/util)
@@ -48,14 +42,14 @@ Documentation
 
 
 
-
-
 License
 ---
-Android Modules is made available under the [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](http://opensource.org/licenses/MIT):
+Android Modules is made available under the [![MIT license](https://img.shields.io/badge/License-MIT-yellow.svg)](http://opensource.org/licenses/MIT)
 
 <pre>
-Copyright (c) 2013 Path, Inc.
+MIT License
+
+Copyright (c) 2017 Benny Genish
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -64,14 +58,14 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 </pre>
